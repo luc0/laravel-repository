@@ -1,5 +1,6 @@
 {
   "name": "torann/laravel-repository",
+  "minimum-stability": "dev",
   "description": "Base repository implementation for Laravel",
   "keywords": [
     "laravel",
