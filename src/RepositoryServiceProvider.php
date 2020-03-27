@@ -43,6 +43,6 @@ class RepositoryServiceProvider extends ServiceProvider
      */
     protected function isLumen()
     {
-        return Str::contains($this->app->version(), 'Lumen') === true;
+        return \Str::contains($this->app->version(), 'Lumen') === true;
     }
 }
